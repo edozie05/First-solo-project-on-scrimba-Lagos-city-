@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  background: #f4f4f4;
+  color: #1d3557;
+}
+
+.shows img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.shows img:hover {
+  scale: 1.5;
+}
+
+span {
+  font-style: italic;
+}
+
+#header {
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: url("images/nightlife.jpg") center center;
+  background-size: cover;
+}
+#title {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  background: #1d3557;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.subtext {
+  font-size: 24px;
+  color: #fff;
+  background: #457b9d;
+  max-width: 700px;
+  padding: 15px 30px;
+  margin: -15px;
+  border-radius: 10px;
+}
+
+#attractions {
+  max-width: 1100px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.shows {
+  width: 200px;
+}
+
+.card {
+  width: 600px;
+  margin: 0 auto 20px auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background: #a8dadc;
+  border-bottom: 8px solid #1d3557;
+  border-radius: 15px;
+}
+
+.card-text {
+  font-style: italic;
+}
+
+.avatar {
+  width: 200px;
+  border-radius: 5px;
+}
+
+.card h3,
+.card h4 {
+  font-weight: bold;
+}
